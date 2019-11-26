@@ -280,8 +280,8 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <rectangle x1="-4.5" y1="9" x2="4.5" y2="25" layer="21"/>
 </package>
 <package name="PHOTOCELL">
-<pad name="P$1" x="0" y="0" drill="0.889"/>
-<pad name="P$2" x="0" y="-2.54" drill="0.889"/>
+<pad name="P$1" x="0" y="0" drill="0.6"/>
+<pad name="P$2" x="0" y="-2.54" drill="0.6"/>
 <wire x1="-1.651" y1="-0.31961875" x2="-1.651" y2="-2.22038125" width="0.254" layer="21"/>
 <wire x1="-1.651" y1="-2.22038125" x2="1.651" y2="-2.22038125" width="0.254" layer="21" curve="120.147116"/>
 <wire x1="1.651" y1="-2.22038125" x2="1.651" y2="-0.31961875" width="0.254" layer="21"/>
