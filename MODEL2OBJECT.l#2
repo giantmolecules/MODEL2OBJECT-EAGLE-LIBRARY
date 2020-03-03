@@ -381,14 +381,6 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <text x="1.905" y="0.381" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="1.905" y="-1.651" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="SAIC-CAP-0.2&quot;-LEAD-SPACING-03">
-<pad name="P$1" x="-2.54" y="0" drill="0.889" diameter="1.651"/>
-<pad name="P$2" x="2.54" y="0" drill="0.889" diameter="1.651"/>
-<wire x1="-1.7907" y1="-1.07315" x2="1.7907" y2="-1.07315" width="0.254" layer="21"/>
-<wire x1="1.7907" y1="-1.07315" x2="1.7907" y2="1.07315" width="0.254" layer="21"/>
-<wire x1="1.7907" y1="1.07315" x2="-1.7907" y2="1.07315" width="0.254" layer="21"/>
-<wire x1="-1.7907" y1="1.07315" x2="-1.7907" y2="-1.07315" width="0.254" layer="21"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="D11XX_H" urn="urn:adsk.eagle:package:22199/1" type="box">
@@ -889,22 +881,6 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <connects>
 <connect gate="G$1" pin="1" pad="A"/>
 <connect gate="G$1" pin="2" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SAIC-CAP-0.1UF-02&quot;">
-<gates>
-<gate name="G$1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SAIC-CAP-0.2&quot;-LEAD-SPACING-03">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
