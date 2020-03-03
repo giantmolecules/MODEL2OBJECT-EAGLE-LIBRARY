@@ -329,6 +329,11 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="21"/>
 <wire x1="3.81" y1="2.54" x2="3.81" y2="39.185559375" width="0.254" layer="21"/>
 </package>
+<package name="PIEZO_BUZZER_2">
+<pad name="P$1" x="0" y="0" drill="1.016" diameter="2.032"/>
+<pad name="P$2" x="0" y="10.16" drill="1.016" diameter="2.032"/>
+<circle x="0" y="5.08" radius="11.049" width="0.254" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="D11XX_H" urn="urn:adsk.eagle:package:22199/1" type="box">
@@ -509,6 +514,8 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-4.064" y="2.54" size="1.778" layer="125">&gt;NAME</text>
 <text x="-4.826" y="-4.572" size="1.778" layer="127">&gt;VALUE</text>
+</symbol>
+<symbol name="PIEZO_BUZZER_@">
 </symbol>
 </symbols>
 <devicesets>
@@ -720,6 +727,22 @@ Source: http://optoelectronics.perkinelmer.com/content/Datasheets/DTS_Photocells
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIEZO_BUZZER_2">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PIEZO_BUZZER_2">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
